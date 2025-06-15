@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <title>Devclub Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"> Devclub Store</div>
+        <nav>
+            <ul>
+                <li> Home </li>
+                <li> Produtos</li>
+                <li> Contatos</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="tech-clicle">
+            <div class="circles"></div>
+            <div class="circles"></div>
+            <div class="circles"></div>
+            <div class="circles"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="portuct-img">
+                    <img src="./assets/apple-watch.png" alt="Apple-Watch">
+                </div>
+                <div class="content">
+                    <p class="portuct-tag"> Novo Lançamento </p>
+                    <p class="portuct-name"> Apple Apple Watch Series 10 </p>
+                    <p class="description"> O Apple Watch Series 10 combina desempenho rápido, recursos essenciais de saúde e segurança, além de um design estiloso. Um smartwatch perfeito para manter sua rotina ativa e conectada com eficiência e praticidade.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="portuct-img">
+                    <img src="./assets/air-pods.png" alt="Apple AirPods Max">
+                </div>
+                <div class="content">
+                    <p class="portuct-tag"> Som Premium </p>
+                    <p class="portuct-name"> Apple AirPods Max </p>
+                    <p class="description"> Mergulhe em uma experiência sonora incomparável com os AirPods Max. Equipados com cancelamento ativo de ruído, áudio espacial dinâmico e um design elegante em alumínio anodizado, eles proporcionam qualidade sonora e conforto premium para o seu dia a dia.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="portuct-img">
+                    <img src="./assets/vision-pro.png" alt="vision-pro">
+                </div>
+                <div class="content">
+                    <p class="portuct-tag"> Alta Performance </p>
+                    <p class="portuct-name"> Apple Vision Pro </p>
+                    <p class="description"> Transforme sua maneira de interagir com o mundo digital. O Apple Vision Pro une realidade aumentada e virtual com altíssima definição, entregando uma experiência imersiva e revolucionária em produtividade, entretenimento e conectividade.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="portuct-img">
+                    <img src="./assets/Apple-iPhone.png" alt="Apple-iPhone">
+                </div>
+                <div class="content">
+                    <p class="portuct-tag"> O Futuro Chegou </p>
+                    <p class="portuct-name"> iPhone 15 Pro </p>
+                    <p class="description"> O iPhone 15 Pro redefine os limites da tecnologia móvel com seu poderoso chip A17 Pro, estrutura em titânio ultra-resistente e câmeras profissionais que capturam cada detalhe. Performance extrema e inovação em suas mãos.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrows-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+            <button class="arrows-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="./scripts.js"></script>
+</html>
